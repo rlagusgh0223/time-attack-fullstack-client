@@ -1,5 +1,6 @@
 import Link from "next/link";
-import Auth from "./components/Auth";
+import HeaderMenus from "./components/HeaderMenus";
+import HeaderNav from "./components/HeaderNav";
 
 function Header() {
   return (
@@ -7,7 +8,8 @@ function Header() {
       <Link href="/" className="font-bold text-4xl">
         중고마켓
       </Link>
-      <Auth />
+      <HeaderNav />
+      <HeaderMenus />
     </header>
   );
 }
